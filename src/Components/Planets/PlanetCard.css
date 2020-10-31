@@ -1,0 +1,19 @@
+.detail-planet{
+    display: inline-flex;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+.detail-planet img{
+    width: 15rem;
+    border-radius:1rem;
+}
+.detail-planet h2{
+    font-size: 2rem;
+}
+.detail-planet span{
+    font-size: 1.3rem;
+}
+.detail-planet li{
+    padding: 1rem;
+
+}

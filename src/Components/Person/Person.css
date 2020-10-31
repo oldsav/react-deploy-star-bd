@@ -1,0 +1,39 @@
+.persons-container{
+    display: flex;
+    margin-top: 2rem;
+}
+.person-list{
+    flex-direction: column;
+    border:rgb(46, 44, 44) 2px solid;
+    border-radius: 20px;
+    width: 25rem;
+}
+.person-list li{
+    display: flex;
+    height: 3.3rem;
+    font-size: 2.2rem;
+    border-bottom: rgb(46, 44, 44) 2px solid;
+    padding-left:2rem ;
+}
+.person-list li:last-child{
+    border-bottom: none;
+}
+.person-list li a{
+    margin: auto 0;
+    width: 100%;
+}
+.person-list li:hover{
+    background-color:rgb(46, 44, 44);
+   
+}
+.persone-active{
+    background-color:rgb(24, 20, 20);
+}
+.person-list li:hover:last-child{
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.person-list li:hover:first-child{
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}

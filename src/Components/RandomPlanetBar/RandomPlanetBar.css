@@ -1,0 +1,30 @@
+.random-planet-bar-container{
+    display: flex;
+    margin-top: 1rem;
+    width: 50rem;
+    background-color: rgb(95, 91, 91);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.random-planet-bar-container img{
+    border-radius: 20px;
+    width: 200px;
+}
+.planet-data{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin: auto 0;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+.planet-data h2{
+    font-size: 2.6rem;
+}
+.planet-data li{
+    margin-bottom: 0.5rem;
+}
+.planet-data :first-child{
+    align-self: center;
+
+}

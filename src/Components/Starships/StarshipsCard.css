@@ -1,0 +1,19 @@
+.detail-starship{
+    display: inline-flex;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+.detail-starship img{
+    width: 15rem;
+    border-radius:1rem;
+}
+.detail-starship h2{
+    font-size: 2rem;
+}
+.detail-starship span{
+    font-size: 1.3rem;
+}
+.detail-starship li{
+    padding: 1rem;
+
+}

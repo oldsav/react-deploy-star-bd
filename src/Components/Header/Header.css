@@ -1,0 +1,22 @@
+.header-container{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+.header-container h1{
+    font-size: 3rem;
+    color: lightyellow;
+}
+.list-item-container{
+    display: flex;
+    height: 100%;
+    margin-left: 2rem;
+}
+.list-item{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.active{
+    color: rgb(218, 218, 162);
+}

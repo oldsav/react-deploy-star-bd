@@ -1,0 +1,19 @@
+.detail-person{
+    display: inline-flex;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+.detail-person img{
+    width: 15rem;
+    border-radius:1rem;
+}
+.detail-person h2{
+    font-size: 2rem;
+}
+.detail-person span{
+    font-size: 1.3rem;
+}
+.detail-person li{
+    padding: 1rem;
+
+}

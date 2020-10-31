@@ -1,0 +1,39 @@
+.starship-container{
+    display: flex;
+    margin-top: 2rem;
+}
+.starship-list{
+    flex-direction: column;
+    border:rgb(46, 44, 44) 2px solid;
+    border-radius: 20px;
+    width: 25rem;
+}
+.starship-list li{
+    display: flex;
+    height: 3.3rem;
+    font-size: 1.5rem;
+    border-bottom: rgb(46, 44, 44) 2px solid;
+    padding-left:2rem ;
+}
+.starship-list li:last-child{
+    border-bottom: none;
+}
+.starship-list li a{
+    margin: auto 0;
+    width: 100%;
+}
+.starship-list li:hover{
+    background-color:rgb(46, 44, 44);
+   
+}
+.starship-list li:hover:last-child{
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.starship-list li:hover:first-child{
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.starship-active{
+    background-color:rgb(24, 20, 20);
+}
